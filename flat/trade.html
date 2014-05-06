@@ -1,0 +1,206 @@
+
+		<div class="container-fluid-full">
+		<div class="row-fluid">
+				
+			<!-- start: Main Menu -->
+			<div id="sidebar-left" class="span2">
+				
+				<div class="row-fluid actions">
+													
+					<input type="text" class="search span12" placeholder="..." />
+				
+				</div>	
+				
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>	
+						<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
+						<li><a href="widgets.html"><i class="icon-dashboard"></i><span class="hidden-tablet"> Widgets</span></a></li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Example Pages</span> <span class="label">3</span></a>
+							<ul>
+								<li><a class="submenu" href="infrastructure.html"><i class="icon-hdd"></i><span class="hidden-tablet"> Infrastructure</span></a></li>
+								<li><a class="submenu" href="messages.html"><i class="icon-envelope"></i><span class="hidden-tablet"> Messages</span></a></li>
+								<li><a class="submenu" href="tasks.html"><i class="icon-tasks"></i><span class="hidden-tablet"> Tasks</span></a></li>
+							</ul>	
+						</li>
+						<li><a href="form.html"><i class="icon-edit"></i><span class="hidden-tablet"> Forms</span></a></li>
+						<li><a href="chart.html"><i class="icon-list-alt"></i><span class="hidden-tablet"> Charts</span></a></li>
+						<li><a href="typography.html"><i class="icon-font"></i><span class="hidden-tablet"> Typography</span></a></li>
+						<li><a href="gallery.html"><i class="icon-picture"></i><span class="hidden-tablet"> Gallery</span></a></li>
+						<li><a href="table.html"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
+						<li><a href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>
+						<li><a href="file-manager.html"><i class="icon-folder-open"></i><span class="hidden-tablet"> File Manager</span></a></li>
+						<li><a href="icon.html"><i class="icon-star"></i><span class="hidden-tablet"> Icons</span></a></li>
+						<li><a href="login.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end: Main Menu -->
+						
+			<!-- start: Content -->
+			<div id="content" class="span10">
+			
+
+			<div class="row-fluid">
+				<div class="box span6">
+					<div class="box-header">
+						<h2><i class="icon-shopping-cart"></i>买入委托</h2>
+					</div>
+					<div class="box-content">
+						<form class="form-horizontal" />
+							<fieldset>
+
+							  <div class="control-group">
+								<label class="col-sm-5 control-label" >最佳买价</label>
+								<div class="controls">
+								  <div class="input-prepend">
+                                      <button id="best_bid_price" class="btn btn-success btn-large" type="button">￥5688.00</button>
+								  </div>
+								</div>
+							  </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="appendedInput">可用余额</label>
+                                    <div class="controls">
+                                        <div class="input-append">
+                                            <button id="balance" class="btn btn-large" type="button">￥5688.00</button>
+                                        </div>
+                                    </div>
+                                </div>
+							  <div class="control-group">
+								<label class="control-label" for="appendedInput">购买价格</label>
+								<div class="controls">
+								  <div class="input-append">
+                                    <span class="add-on">￥</span>
+									<input id="bid_price" class="input-medium" type="text" />
+								  </div>
+								</div>
+							  </div>
+
+                              <div class="control-group">
+                                  <label class="control-label">购买数量</label>
+                                  <div class="controls">
+                                      <input id="bid_amount" class="input-medium" type="text" />
+                                  </div>
+                              </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="appendedInput">购买金额</label>
+                                    <div class="controls">
+                                        <div class="input-append">
+                                            <span class="add-on">￥</span>
+                                            <input id="bid_price" class="input-medium" type="text" />
+                                        </div>
+                                    </div>
+                                </div>
+							  <div class="form-actions">
+								<button type="submit" class="btn btn-primary btn-large">买入(CNY->BTC)</button>
+
+							  </div>
+							</fieldset>
+						</form>
+					</div>
+				</div><!--/span-->
+
+                <div class="box span6">
+                    <div class="box-header">
+                        <h2><i class="icon-briefcase"></i>买入委托单</h2>
+                    </div>
+                    <div class="box-content">
+                        <form class="form-horizontal" />
+                        <fieldset>
+
+                            <div class="control-group">
+                                <label class="col-sm-5 control-label" for="best-bid-price">最佳买价</label>
+                                <div class="controls">
+                                    <div class="input-prepend">
+                                        <button id="best-bid-price" class="btn btn-success btn-large" type="button">5688.00</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label" for="appendedInput">购买价格</label>
+                                <div class="controls">
+                                    <div class="input-append">
+                                        <span class="add-on">$</span>
+                                        <input id="appendedInput" class="input-medium" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">购买数量</label>
+
+                            </div>
+                        </fieldset>
+                        </form>
+                    </div>
+                </div><!--/span-->
+
+			</div><!--/row-->
+    
+					
+			</div>
+			<!-- end: Content -->
+				
+				</div><!--/fluid-row-->
+
+		
+		<div class="clearfix"></div>
+		
+		<footer>
+			<p>
+				<span style="text-align:left;float:left">&copy; 2013 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">creativeLabs</a></span>
+				<span class="hidden-phone" style="text-align:right;float:right">Powered by: <a href="http://admintemplates.co" alt="Bootstrap Admin Templates">SimpliQ</a></span>
+			</p>
+
+		</footer>
+				
+	</div><!--/.fluid-container-->
+
+	<!-- start: JavaScript-->
+		<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>	
+		<script src="js/jquery-ui-1.10.3.custom.min.js"></script>	
+		<script src="js/jquery.ui.touch-punch.js"></script>	
+		<script src="js/modernizr.js"></script>	
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/jquery.cookie.js"></script>	
+		<script src='js/fullcalendar.min.js'></script>	
+		<script src='js/jquery.dataTables.min.js'></script>
+		<script src="js/excanvas.js"></script>
+	<script src="js/jquery.flot.js"></script>
+	<script src="js/jquery.flot.pie.js"></script>
+	<script src="js/jquery.flot.stack.js"></script>
+	<script src="js/jquery.flot.resize.min.js"></script>
+	<script src="js/jquery.flot.time.js"></script>
+		
+		<script src="js/jquery.chosen.min.js"></script>	
+		<script src="js/jquery.uniform.min.js"></script>		
+		<script src="js/jquery.cleditor.min.js"></script>	
+		<script src="js/jquery.noty.js"></script>	
+		<script src="js/jquery.elfinder.min.js"></script>	
+		<script src="js/jquery.raty.min.js"></script>	
+		<script src="js/jquery.iphone.toggle.js"></script>	
+		<script src="js/jquery.uploadify-3.1.min.js"></script>	
+		<script src="js/jquery.gritter.min.js"></script>	
+		<script src="js/jquery.imagesloaded.js"></script>	
+		<script src="js/jquery.masonry.min.js"></script>	
+		<script src="js/jquery.knob.modified.js"></script>	
+		<script src="js/jquery.sparkline.min.js"></script>	
+		<script src="js/counter.min.js"></script>	
+		<script src="js/raphael.2.1.0.min.js"></script>
+	<script src="js/justgage.1.0.1.min.js"></script>	
+		<script src="js/jquery.autosize.min.js"></script>	
+		<script src="js/retina.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/wizard.min.js"></script>
+		<script src="js/core.min.js"></script>	
+		<script src="js/charts.min.js"></script>	
+		<script src="js/custom.min.js"></script>
+	<!-- end: JavaScript-->
+	
+</body>
+</html>
